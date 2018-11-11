@@ -1,10 +1,10 @@
 doctype html
 
-- function getPageUrl(res) {
+- function getResourceUrl(res) {
 -   if (process.env.NODE_ENV === 'production') {
--     return res.getUrl().replace(/\.html$/, '')
+-     return '.' + res.getUrl().replace(/\.html$/, '')
 -   } else {
--     return res.getUrl()
+-     return '.' + res.getUrl()
 -   }
 - }
 
@@ -13,8 +13,8 @@ html(lang="en")
         block head
             title=page.title
 
-            script(type="text/javascript", src=contents['all.js'].getUrl())
-            link(type="text/css", href=contents['all.less'].getUrl(), rel="stylesheet")
+            script(type="text/javascript", src=getResourceUrl(contents['all.js']))
+            link(type="text/css", href=getResourceUrl(contents['all.less']), rel="stylesheet")
 
     body
         block body
