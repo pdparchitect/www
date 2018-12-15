@@ -3,7 +3,7 @@ template: base.jade
 title: pdp
 ---
 
-![pdp](./pdp.png)
+![pdp](https://pdparchitect.github.io/www/pdp.png)
 
 Founder <a href="https://twitter.com/pdp"><i class="fa fa-twitter"></i></a> <a href="https://github.com/pdparchitect"><i class="fa fa-github"></i></a>
 
