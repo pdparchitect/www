@@ -19,6 +19,6 @@ CISO/Director at FinTech Startup
 * [Websecurify](https://websecurify.com)
 * [SecApps](https://secapps.com)
 * [Webreaver](https://webreaver.com)
-* [Cohesion](https://cohesion.com)
+* [Cohesion](https://cohesion.sh)
 * [PownJS](https://pownjs.com)
 * [OpenDevSecOps](https://opendevsecops.org)
