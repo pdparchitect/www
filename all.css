@@ -1,0 +1,303 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+body {
+  max-width: 800px;
+  margin: 20px auto 20px auto;
+  font-family: Inconsolata, monospace;
+}
+section.m10,
+div.m10 {
+  margin: 10px;
+}
+section.m20,
+div.m20 {
+  margin: 20px;
+}
+section.m30,
+div.m30 {
+  margin: 30px;
+}
+section.m40,
+div.m40 {
+  margin: 40px;
+}
+section.m50,
+div.m50 {
+  margin: 50px;
+}
+section.m60,
+div.m60 {
+  margin: 60px;
+}
+section.mt10,
+div.mt10 {
+  margin-top: 10px;
+}
+section.mt20,
+div.mt20 {
+  margin-top: 20px;
+}
+section.mt30,
+div.mt30 {
+  margin-top: 30px;
+}
+section.mt40,
+div.mt40 {
+  margin-top: 40px;
+}
+section.mt50,
+div.mt50 {
+  margin-top: 50px;
+}
+section.mt60,
+div.mt60 {
+  margin-top: 60px;
+}
+section.mb10,
+div.mb10 {
+  margin-bottom: 10px;
+}
+section.mb20,
+div.mb20 {
+  margin-bottom: 20px;
+}
+section.mb30,
+div.mb30 {
+  margin-bottom: 30px;
+}
+section.mb40,
+div.mb40 {
+  margin-bottom: 40px;
+}
+section.mb50,
+div.mb50 {
+  margin-bottom: 50px;
+}
+section.mb60,
+div.mb60 {
+  margin-bottom: 60px;
+}
+section.ml10,
+div.ml10 {
+  margin-left: 10px;
+}
+section.ml20,
+div.ml20 {
+  margin-left: 20px;
+}
+section.ml30,
+div.ml30 {
+  margin-left: 30px;
+}
+section.ml40,
+div.ml40 {
+  margin-left: 40px;
+}
+section.ml50,
+div.ml50 {
+  margin-left: 50px;
+}
+section.ml60,
+div.ml60 {
+  margin-left: 60px;
+}
+section.mr10,
+div.mr10 {
+  margin-right: 10px;
+}
+section.mr20,
+div.mr20 {
+  margin-right: 20px;
+}
+section.mr30,
+div.mr30 {
+  margin-right: 30px;
+}
+section.mr40,
+div.mr40 {
+  margin-right: 40px;
+}
+section.mr50,
+div.mr50 {
+  margin-right: 50px;
+}
+section.mr60,
+div.mr60 {
+  margin-right: 60px;
+}
+section.p10,
+div.p10 {
+  padding: 10px;
+}
+section.p20,
+div.p20 {
+  padding: 20px;
+}
+section.p30,
+div.p30 {
+  padding: 30px;
+}
+section.p40,
+div.p40 {
+  padding: 40px;
+}
+section.p50,
+div.p50 {
+  padding: 50px;
+}
+section.p60,
+div.p60 {
+  padding: 60px;
+}
+section.pt10,
+div.pt10 {
+  padding-top: 10px;
+}
+section.pt20,
+div.pt20 {
+  padding-top: 20px;
+}
+section.pt30,
+div.pt30 {
+  padding-top: 30px;
+}
+section.pt40,
+div.pt40 {
+  padding-top: 40px;
+}
+section.pt50,
+div.pt50 {
+  padding-top: 50px;
+}
+section.pt60,
+div.pt60 {
+  padding-top: 60px;
+}
+section.pb10,
+div.pb10 {
+  padding-bottom: 10px;
+}
+section.pb20,
+div.pb20 {
+  padding-bottom: 20px;
+}
+section.pb30,
+div.pb30 {
+  padding-bottom: 30px;
+}
+section.pb40,
+div.pb40 {
+  padding-bottom: 40px;
+}
+section.pb50,
+div.pb50 {
+  padding-bottom: 50px;
+}
+section.pb60,
+div.pb60 {
+  padding-bottom: 60px;
+}
+section.pl10,
+div.pl10 {
+  padding-left: 10px;
+}
+section.pl20,
+div.pl20 {
+  padding-left: 20px;
+}
+section.pl30,
+div.pl30 {
+  padding-left: 30px;
+}
+section.pl40,
+div.pl40 {
+  padding-left: 40px;
+}
+section.pl50,
+div.pl50 {
+  padding-left: 50px;
+}
+section.pl60,
+div.pl60 {
+  padding-left: 60px;
+}
+section.pr10,
+div.pr10 {
+  padding-right: 10px;
+}
+section.pr20,
+div.pr20 {
+  padding-right: 20px;
+}
+section.pr30,
+div.pr30 {
+  padding-right: 30px;
+}
+section.pr40,
+div.pr40 {
+  padding-right: 40px;
+}
+section.pr50,
+div.pr50 {
+  padding-right: 50px;
+}
+section.pr60,
+div.pr60 {
+  padding-right: 60px;
+}
+section.flex1,
+div.flex1 {
+  flex: 1;
+}
+section.flex2,
+div.flex2 {
+  flex: 2;
+}
+section.flex3,
+div.flex3 {
+  flex: 3;
+}
+section.cc,
+div.cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.ct,
+div.ct {
+  text-align: center;
+}
+section.wh,
+div.wh {
+  min-height: 100vh;
+}
+section.mw900,
+div.mw900 {
+  width: 100%;
+  max-width: 900px;
+}
+section.mw800,
+div.mw800 {
+  width: 100%;
+  max-width: 800px;
+}
+section.mw700,
+div.mw700 {
+  width: 100%;
+  max-width: 700px;
+}
+section.mw600,
+div.mw600 {
+  width: 100%;
+  max-width: 600px;
+}
+a {
+  color: inherit;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
